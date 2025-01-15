@@ -22,14 +22,8 @@ def test_freebie_transcribe_2():
 
         
 def test_transcribe():
-    """
-    Write your unit test for the transcribe function here.
-    """
-    pass
+    assert transcribe('AGCTAGCT') == 'UCGAUCGA'
 
 
 def test_reverse_transcribe():
-    """
-    Write your unit test for the reverse transcribe function here.
-    """
-    pass
+    assert reverse_transcribe('AGCTAGCT') == 'AGCUAGCU'
